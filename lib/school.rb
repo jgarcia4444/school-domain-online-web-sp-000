@@ -17,4 +17,8 @@ class School
     end
   end
 
+  def grade(grade_num)
+    return @roster[grade_num].flatten
+  end
+
 end
