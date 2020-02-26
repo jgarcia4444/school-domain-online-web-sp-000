@@ -21,4 +21,10 @@ class School
     return @roster[grade_num].flatten
   end
 
+  def sort
+    @roster.each do |grade, students|
+      students.sort
+    end
+  end
+
 end
